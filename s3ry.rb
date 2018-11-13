@@ -6,6 +6,7 @@ class S3ry < Formula
   version "0.2.0"
   def install
     system "go", "build", "-o", "s3ry", "cmd/main.go"
+    bin.install 's3ry'
   end
   test do
     system "true"

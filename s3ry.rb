@@ -3,10 +3,10 @@ class S3ry < Formula
   homepage "https://godoc.org/github.com/seike460/s3ry"
   if Hardware::CPU.is_64_bit?
     url "https://github.com/seike460/s3ry/releases/download/0.1.2/s3ry_darwin_amd64.zip"
-    sha256 "906fd8aa36bce70fc4e117f740eb83e9c063f71465e97ad0ca178d952f4c5904"
+    sha256 "ef3222c87f70043d1ce668d9e56f86b29909491182c8cc24cdda2bce278a9b4a"
   else
     url "https://github.com/seike460/s3ry/releases/download/0.1.2/s3ry_darwin_386.zip"
-    sha256 "d6ae99f1664626b52986a0b3ac0003cf7773c2732f51783299be0f3ae238d47b"
+    sha256 "774c88622873e043b0660aa1ae9e1a853104a5dadc984072bbe0bcb664e66ac8"
   end
   version "0.1.2"
   def install
